@@ -25,7 +25,7 @@ pessoa1 = Pessoa(nome='Alice', idade=25, profissao='Engenheira')
 pessoa2 = Pessoa(nome='Luiza', idade=30, profissao='Desenvolvedora')
 pessoa3 = Pessoa(nome='Luiz', idade=22)
 
-print('-------------------------------------------------')
+print('-----------------INICIO DO PROGRAMA------------- ')
 print('Lista da empresa')
 print('-------------------------------------------------')
 print(pessoa1.saudacao)
