@@ -25,7 +25,6 @@ class Restaurante:
     def alternar_estado(self):
         self._ativo = not self._ativo
 
-        # código omitido
 
     def receber_avaliacao(self, cliente, nota):
         if 0 < nota <= 5:
