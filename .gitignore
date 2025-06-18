@@ -1,0 +1,10 @@
+# Ignorar todos os arquivos .pyc
+*.pyc
+
+# Ignorar todas as pastas __pycache__
+__pycache__/
+**/__pycache__/
+
+# Manter a pasta modelos (nada precisa ser feito se ela não estiver em __pycache__)
+# garantir que modelos não seja ignorado por engano:
+!modelos/
