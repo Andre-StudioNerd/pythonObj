@@ -21,18 +21,18 @@ class Pessoa:
         self.idade += 1
         return f'Eu faço {self.idade} anos no próximo mês.'
 
-pessoa1 = Pessoa(nome='Alice', idade=25, profissao='Engenheira')
-pessoa2 = Pessoa(nome='Luiza', idade=30, profissao='Desenvolvedora')
-pessoa3 = Pessoa(nome='Luiz', idade=22)
+pessoa_nova = Pessoa(nome='Alice', idade=25, profissao='Engenheira')
+pessoa_antiga = Pessoa(nome='Luiza', idade=30, profissao='Desenvolvedora')
+pessoa_desconhecida = Pessoa(nome='Luiz', idade=22)
 
 print('-----------------INICIO DO PROGRAMA------------- ')
 print('Lista da empresa')
 print('-------------------------------------------------')
-print(pessoa1.saudacao)
-print(pessoa1.aniversario)
+print(pessoa_nova.saudacao)
+print(pessoa_nova.aniversario)
 print('-------------------------------------------------')
-print(pessoa2.saudacao)
+print(pessoa_antiga.saudacao)
 print('-------------------------------------------------')
-print(pessoa3.saudacao)
+print(pessoa_desconhecida.saudacao)
 print('-------------------------------------------------')
 print('--------------FIM DO PROGRAMA !-------------------')

@@ -13,8 +13,8 @@ class Musica:
         for musica in Musica.musicas:
             print(f'{musica.nome} | {musica.artista} | {musica.duracao}')
 
-musica1=Musica('Nova','Cantor',4)
-musica2=Musica('Outra','Cantora',3)
+musica_nova=Musica('Nova','Cantor',4)
+musica_outra=Musica('Outra','Cantora',3)
 
 Musica.listar_musicas()
 

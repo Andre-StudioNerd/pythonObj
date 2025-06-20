@@ -1,15 +1,15 @@
 from classes.carro import Carro
 
-carro1 = Carro(marca="Ford", modelo="Focus", cor="Preto")
-carro2 = Carro(marca="Chevrolet", modelo="Cruze", cor="Prata")
-carro3 = Carro(marca="Honda", modelo="Civic", cor="Vermelho")
+carro_ford = Carro(marca="Ford", modelo="Focus", cor="Preto")
+carro_chevrolet = Carro(marca="Chevrolet", modelo="Cruze", cor="Prata")
+carro_honda = Carro(marca="Honda", modelo="Civic", cor="Vermelho")
 
 
 def main():
-    print(f"Carro 1: {carro1.marca} {carro1.modelo}, Cor: {carro1.cor}")
-    print(f"Carro 2: {carro2.marca} {carro2.modelo}, Cor: {carro2.cor}")
-    print(f"Carro 3: {carro3.marca} {carro3.modelo}, Cor: {carro3.cor}")
-    carro1.ligar()
+    print(f"Carro 1: {carro_ford.marca} {carro_ford.modelo}, Cor: {carro_ford.cor}")
+    print(f"Carro 2: {carro_chevrolet.marca} {carro_chevrolet.modelo}, Cor: {carro_chevrolet.cor}")
+    print(f"Carro 3: {carro_honda.marca} {carro_honda.modelo}, Cor: {carro_honda.cor}")
+    carro_honda.ligar()
 
 if __name__=="__main__":
     main()

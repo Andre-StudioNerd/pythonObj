@@ -14,7 +14,7 @@ class Carro:
        for carro in Carro.carros:
            print(f'{carro.modelo} | {carro.cor} |{carro.ano}')
 
-carro1=Carro('Hilux','Prata',2009)
-carro2=Carro('Onix','Branco',2014)
+carro_hilux=Carro('Hilux','Prata',2009)
+carro_onix=Carro('Onix','Branco',2014)
 
 Carro.listar_carros()

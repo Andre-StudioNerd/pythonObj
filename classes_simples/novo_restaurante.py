@@ -33,8 +33,8 @@ class Cliente:
 
 restaurante_praca = Restaurante('Sabor da Praça', 'Gourmet',100,10)
 restaurante_pizza = Restaurante('Pizza Express', 'Italiana',50,8)
-cliente1=Cliente('Alice',23,'Email@email.com','11111')
-cliente2=Cliente('Pedro',31,'Email@email.com.br','11111222')
+cliente_novo=Cliente('Alice',23,'Email@email.com','11111')
+cliente_antigo=Cliente('Pedro',31,'Email@email.com.br','11111222')
 
 print("Listar Restaurantes")
 Restaurante.listar_restaurantes()

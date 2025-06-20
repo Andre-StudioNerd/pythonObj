@@ -2,12 +2,12 @@ from agencia import Agencia
 from banco import MeuBanco
 
 
-banco1=MeuBanco("Banco A","Rua Nova")
-agencia1=Agencia("Agenc B","Rua Velha",11)
+banco_A=MeuBanco("Banco A","Rua Nova")
+agencia_B=Agencia("Agência B","Rua Velha",11)
 
 def main():
-    print(banco1)
-    print(agencia1)
+    print(banco_A)
+    print(agencia_B)
 
 if __name__ == '__main__':
     main()

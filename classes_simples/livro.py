@@ -23,8 +23,8 @@ class Livro:
         for livro in cls.livros:
             print(f'{livro._titulo.ljust(25)} | {livro._autor.ljust(25)} | {livro.paginas}')
 
-livro1=Livro('Livro1','AutorA',100)
-livro1.aumentar_paginas(10)
-livro2=Livro('Livro2','AutorB',200)
+livro_terror=Livro('Livro Terror','AutorA',100)
+livro_terror.aumentar_paginas(10)
+livro_futuro=Livro('Livro Futuro','AutorB',200)
 
 Livro.listar_livros()

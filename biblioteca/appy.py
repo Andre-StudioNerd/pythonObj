@@ -1,11 +1,11 @@
 from livro import Livro
 
-livro_main1 = Livro("Python para Iniciantes", "Carlos Coder", 2021)
-livro_main2 = Livro("Web Development Essentials", "Laura Developer", 2023)
+livro_python = Livro("Python para Iniciantes", "Carlos Coder", 2021)
+livro_web = Livro("Web Development Essentials", "Laura Developer", 2023)
 
 def main():
-    print(livro_main1)
-    print(livro_main2)
+    print(livro_python)
+    print(livro_web)
 
 if __name__ == '__main__':
     main()
