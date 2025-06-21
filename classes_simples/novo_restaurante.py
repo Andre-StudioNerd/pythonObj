@@ -31,12 +31,19 @@ class Cliente:
         for cliente in Cliente.clientes:
             print(f'Nome: {cliente.nome} | Idade: {cliente.idade} | Email: {cliente.email} | Telefone: {cliente.telefone}')
 
-restaurante_praca = Restaurante('Sabor da Praça', 'Gourmet',100,10)
-restaurante_pizza = Restaurante('Pizza Express', 'Italiana',50,8)
-cliente_novo=Cliente('Alice',23,'Email@email.com','11111')
-cliente_antigo=Cliente('Pedro',31,'Email@email.com.br','11111222')
+if __name__=='__main__':
 
-print("Listar Restaurantes")
-Restaurante.listar_restaurantes()
-print("Listar Clientes")
-Cliente.listar_clientes()
+   restaurante_praca = Restaurante('Sabor da Praça', 'Gourmet',100,10)
+   restaurante_pizza = Restaurante('Pizza Express', 'Italiana',50,8)
+   cliente_novo=Cliente('Alice',23,'Email@email.com','11111')
+   cliente_antigo=Cliente('Pedro',31,'Email@email.com.br','11111222')
+
+   print("-"*80)
+   print("Listar Restaurantes")
+   print("-"*80)
+   Restaurante.listar_restaurantes()
+   print("-"*80)
+   print("Listar Clientes")
+   print("-"*80)
+   Cliente.listar_clientes()
+   print("-"*80)

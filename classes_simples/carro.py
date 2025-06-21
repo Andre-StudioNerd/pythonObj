@@ -14,7 +14,12 @@ class Carro:
        for carro in Carro.carros:
            print(f'{carro.modelo} | {carro.cor} |{carro.ano}')
 
-carro_hilux=Carro('Hilux','Prata',2009)
-carro_onix=Carro('Onix','Branco',2014)
+if __name__=='__main__':
 
-Carro.listar_carros()
+     carro_hilux=Carro('Hilux','Prata',2009)
+     carro_onix=Carro('Onix','Branco',2014)
+     print("-"*30)
+     print("Listando Carros: ")
+     print("-"*30)
+     Carro.listar_carros()
+     print("-"*30)
