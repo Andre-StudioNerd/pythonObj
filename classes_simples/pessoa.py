@@ -22,6 +22,7 @@ class Pessoa:
         return f'Eu faço {self.idade} anos no próximo mês.'
 
 
+
 if __name__=='__main__':
 
    pessoa_nova = Pessoa(nome='Alice', idade=25, profissao='Engenheira')
